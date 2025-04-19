@@ -1,0 +1,53 @@
+.keerthi{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    text-align: center;
+    background-color:red;
+}
+.head1{
+    background-color:burlywood;
+    height: 100px;
+    width: 100px;
+    
+}
+.head2{
+    background-color: aqua;
+    height:100px;
+    width:100px;
+    
+}
+.head3{
+    background-color:blue;
+    height:100px;
+    width:100px;
+    
+}
+.head4{
+    
+        background-color:burlywood;
+        height: 100px;
+        width: 100px;
+        align-self: start;
+        
+    }
+    .head5{
+        background-color: aqua;
+        height:100px;
+        width:100px;
+        
+    }
+    .head6{
+        background-color:blue;
+        height:100px;
+        width:100px;
+        align-self: end;
+
+}
+    
+
+
+
+
+
