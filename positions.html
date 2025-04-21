@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21/4/25</title>
+    <style>
+        .parent{
+            height: 30px;
+            top: 30px;
+           background-color: aqua;
+            position:sticky;
+            z-index: 40px;
+         }
+         .foot:hover{
+            background-color: yellow;
+            position: fixed;
+            right:30px;
+
+         }
+        </style>
+</head>
+<body>
+<div class="parent">
+    <p>this is parent</p>
+    <p class="this is child"></p>
+    <p id="uniquechild">
+        this is child
+    </p>
+    <div class="foot">
+        <P>This is footer </P>
+    </div>
+
+</div>    
+</body>
+</html>
